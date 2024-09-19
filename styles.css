@@ -47,6 +47,11 @@
 	font-weight: 900;
 }
 
+.secondary-text {
+	color: gainsboro;
+	opacity: 0.75;
+}
+
 .main-text, .secondary-text, .sign-up, .hero-image {
 	margin: 5px;
 }
@@ -110,7 +115,6 @@
 
 .quote-section {
 	background-color: #E5E7EB;
-	margin-bottom: 50px;
 	padding: 50px;
 }
 
@@ -135,6 +139,47 @@
 	text-align: right;
 	font-size: 18px;
 	flex: 1, 1, auto;
+}
+
+.call-background {
+	background-color: white;
+}
+
+.call-to-action {
+	display: flex;
+	background-color: #3882F6;
+	margin: 75px 275px;
+
+	justify-content: center;
+	border-radius: 15px;
+}
+
+.call-text {
+	flex: 1;
+	margin: 25px 100px;
+	margin-right: 0px;
+}
+
+.call-title {
+	flex: 1;
+	font-size: 24px;
+	color: white;
+	margin: auto;
+}
+
+.call-subtext {
+	flex: 1;
+	font-size: 14px;
+	color: gainsboro;
+	opacity: 0.75;
+	margin: auto;
+}
+
+.call-to-action .sign-up {
+	border: 1px white solid;
+	margin: auto;
+	margin-right: 150px;
+
 }
 
 
