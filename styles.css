@@ -182,6 +182,12 @@
 
 }
 
+.copyright {
+	color: white;
+	text-align: center;
+	flex: 1;
+}
+
 
 button {
 	background-color: #3882f6;
